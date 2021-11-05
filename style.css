@@ -91,8 +91,9 @@ body{
     border: 2px solid transparent;
     text-align: center;
     letter-spacing: 0.7px;
-}
-#paybtn:hover{
+  }
+  #paybtn:hover{
+  cursor: pointer;
     background-color: hsl(228, 45%, 44%);
     box-shadow: 4px 8px 10px rgb(109, 103, 103);
 }
@@ -105,8 +106,9 @@ body{
       font-family: 'Red Hat Display', sans-serif;
         border: transparent;
         background-color: transparent;
-}
-#cancelbtn:hover{
+      }
+      #cancelbtn:hover{
+        cursor: pointer;
     color: hsl(223, 47%, 23%);
     text-decoration: underline;
 
